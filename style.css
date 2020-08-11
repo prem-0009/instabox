@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    /* border: 2px solid orange; */
+    justify-content: space-around;
+    align-items: center  ;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    /* width: 40%; */
+    margin-top: 50px;
+}
+.profile-stat {
+    display: flex;
+     justify-content: space-between;
+    /* align-items: center;  */
+    flex-direction: column;
+    width: 90%;
+}
+.first-row {
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: stretch; */
+    /* position: relative; */
+    /* margin-left: -4%; */
+    /* border: 2px solid black; */
+
+}
+.second-row {
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+.third-row {
+    /* position: relative; */
+    /* margin-left: 5%; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px sold orange; */
+    
+}
+
+.friends {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* border: 2px solid green; */
+    min-height: 100px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 60%;
+}
+#profile-pic {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+#insta-ad img {
+    width: 15px;
+}
+
+#verified {
+    margin-left: 5px;
+}
+
+.fid {
+    text-align: justify;
+}
+
+.friend-list {
+    align-content: center;
+}
