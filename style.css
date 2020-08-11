@@ -8,8 +8,8 @@
 
 .profile {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
     /* border: 2px solid blue; */
     /* width: 40%; */
     margin-top: 50px;
@@ -19,7 +19,8 @@
      justify-content: space-between;
     /* align-items: center;  */
     flex-direction: column;
-    width: 90%;
+    width: 100%;
+    /* border: 2px solid green; */
 }
 .first-row {
     display: flex;
@@ -58,18 +59,27 @@
 }
 
 img {
-    width: 50%;
+    width: 40%;
 }
 #profile-pic {
     display: flex;
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
-    width: 400px;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* width:  100%; */
     /* border: 1px solid black; */
+    /* height: 50vh; */
+    /* margin-top: 0em; */
+    /* padding-top: 0em; */
+    /* height: auto; */
+}
+
+#profile-pic img {
+    width: 70%;
+    /* height: 100%; */
 }
 
 #insta-ad img {
-    width: 15px;
+    width: 13px;
 }
 
 #verified {
@@ -86,4 +96,5 @@ img {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    /* border: 2px solid black; */
   }
